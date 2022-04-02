@@ -1,7 +1,7 @@
 # API-S-HTML-v2
-Práctica 4. API’s de HTML5
-Version 1 con video ya incrustrado
-Modulo 3 Desarrollo FullStack - curso Desarrolladoras Samsung/BeJob 2021/2022
+Práctica 4. API’s de HTML5</br>
+Version 2 con video Select File para subir video </br>
+Modulo 3 Desarrollo FullStack - curso Desarrolladoras Samsung/BeJob 2021/2022 </br>
 
 Se propone cargar un fichero de vídeo desde una carpeta local del PC y reproducirlo utilizando las opciones permitidas por el API Media Source.
 
