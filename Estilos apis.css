@@ -1,0 +1,119 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: linear-gradient(220.55deg, #FFF500 0%, #FF00B8 100%);
+    width: 100%; 
+    height: 100%;
+    background-size: 180% 180%;
+    animation: gradient-animation 10s ease infinite;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh ;
+ 
+
+}
+
+@keyframes gradient-animation{
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+
+h1{
+    text-align: center;
+    color: orangered;
+    text-shadow:2px black;
+    text-decoration:underline;
+}
+
+
+button {
+    background:orangered;
+    margin: 30px 30px;
+    transition: 0.25s;
+    padding: 10px 10px;
+  }
+  
+  .button{
+    border-color:orangered;
+    border-width:  medium;
+    border-style: solid;
+    color: orangered;
+    background: none; 
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  .button:hover {
+    border-color: var(--hover);
+      color: orangered;
+      box-shadow:  0 0.5em 0.5em -0.4em;
+      transform: translateY(-0.25em); 
+  }
+
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+h2 {
+    line-height: 3em;
+    font-weight: 700;
+    color: rebeccapurple (179, 94%, 8%);
+}
+
+input[type=file] {
+    border-radius: 3px;
+
+}
+
+input[name=file] {
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
+
+.thumb {
+    height: 50%;
+    margin-top: 2em;
+    visibility: hidden;
+}
+
+.controles {
+    margin-top: 1.5em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bi {
+    font-size: 2em;
+}
+
+.mensaje-cargando {
+    font-size: 2em;
+    font-weight: 200;
+    color: yellow;
+    padding: 2em;
+}
