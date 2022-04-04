@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Estilos apis.css">
+    
+    <title>APIs de HTML</title>
+</head>
+<body>
+    <div  class="contenido">
+        <h1> Práctica API'S de HTML</h1>
+        <h2> Seleccione su archivo </h2>
+        <label for="archivo"> </label>
+        <input type="file"  id="file" name="file" accept="video/*">
+        <output id="video-output"></output>
+
+        <div  class="botones">
+            <button class="button" id="play" style="visibility: hidden;" onclick="document.getElementById('video').play();"> Reproducir </button>
+            </button>
+            <button class="button" id="pause" style="visibility: hidden;" onclick="document.getElementById('video').pause();"> Pausar </button>
+            <button class="button" id="subirVolumen" style="visibility: hidden;" onclick="document.getElementById('video').volume +=0.1;"> Subir Volumen </button>
+            <button class="button" id="bajarVolumen" style="visibility: hidden;" tonclick="document.getElementById('video').volume -=0.1;">Bajar Volumen</button>
+        </div> 
+    </div>
+
+    <script src="JS Apis.js"></script>
+        
+</body>
+</html>
